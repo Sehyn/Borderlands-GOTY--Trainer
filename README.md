@@ -18,6 +18,12 @@ Borderlands-GOTY-Trainer is a DotNet simple Borderlands Game Of The Year Edition
 ## Developed by :
 * Sehyn
 
+## Credits : 
+* erfg12
+
+## Using Library :
+https://github.com/erfg12/memory.dll
+
 ## Information :
 * First of all thank you for downloading my source code.
 * I Am fairly new to coding, I never had learning courses.
