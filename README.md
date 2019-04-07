@@ -12,8 +12,9 @@ Borderlands-GOTY-Trainer is a DotNet simple Borderlands Game Of The Year Edition
 
 ## Task List ( In order ) :
 
-- [x] Money feature
-- [ ] Golden Keys feature
+- [x] Money generator
+- [x] Unlimited Armor
+- [ ] Golden Keys 
 
 ## Developed by :
 * Sehyn
