@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BorderlandsGOTY_Money/obj
+/BorderlandsGOTY_Money/bin/Debug
