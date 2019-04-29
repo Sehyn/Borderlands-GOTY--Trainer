@@ -15,13 +15,14 @@ namespace BorderlandsGOTY_Money
             InitializeComponent();
         }
 
-
+        //GoldenKeysTotal   0x025C1D90,0x68,0x550,0x1B8,0x1070,0x64,0x300
+        //GoldenKeysUsed    0x025C1D90,0x68,0x550,0x1B8,0x1070,0x64,0x31C
 
         private void Timery_Tick(object sender, EventArgs e)
         {
             // Every 1 Seconds we will open the process and read for current money value and print it to a label.
             MemLib.OpenProcess("BorderlandsGOTY"); // Open Proccess
-            int Money = MemLib.readInt("BorderlandsGOTY.exe+0x25411A8,0x70,0x268,0x350"); // Read the Money value.
+            int Money = MemLib.readInt("BorderlandsGOTY.exe+0x025C1D90,0x68,0x550,0x1F8,0x350"); // Read the Money value.
             CurrentMoneyLbl.Text = ("Current Money : " + Money.ToString()); // Print it to a label.
         }
 
@@ -29,7 +30,7 @@ namespace BorderlandsGOTY_Money
         {
 
             // On click, it will set the amount of $ you've set in the TextBox
-            MemLib.writeMemory("BorderlandsGOTY.exe+0x25411A8,0x70,0x268,0x350", "int", MoneyBoxTxt.Text); 
+            MemLib.writeMemory("BorderlandsGOTY.exe+0x025C1D90,0x68,0x550,0x1F8,0x350", "int", MoneyBoxTxt.Text); 
 
         }
 
